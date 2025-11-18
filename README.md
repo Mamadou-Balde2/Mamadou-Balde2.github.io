@@ -13,11 +13,3 @@ git commit -m "changements"
 Envoyer les changements sur GitHub:
 git push origin main
 
-A propos de moi:
-Tu peux dire quelque chose comme :
-
-« Bonjour, je m’appelle [Ton Nom], je suis en première année de Réseaux et Télécommunications à l’IUT de Béthune. Je m’intéresse aux technologies réseau et à la cybersécurité, et j’ai hâte de développer mes compétences dans ce domaine. »
-
-Si tu veux, je peux te proposer 2 ou 3 autres versions très courtes et percutantes.
-
-
