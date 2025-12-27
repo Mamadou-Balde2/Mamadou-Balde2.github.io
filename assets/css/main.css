@@ -783,6 +783,15 @@ section,
   overflow: hidden;
   padding-bottom: 80px;
 }
+
+#admin h2{
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 25px;
+}
 #admin{
    padding-top: 80px;
   min-height: 100vh;
@@ -793,6 +802,84 @@ section,
   overflow: hidden;
   padding-bottom: 80px;
 }
+
+#connect h2{
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 25px;
+}
+#connect{
+  padding-top: 80px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+#program h2{
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 25px;
+}
+#program{
+   padding-top: 80px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+#secure h2{
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 25px;
+}
+#secure{
+   padding-top: 80px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+#monitor h2{
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 25px;
+}
+#monitor{
+   padding-top: 80px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+
 .hero img {
   position: absolute;
   inset: 0;
@@ -4242,9 +4329,3 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
