@@ -1,1 +1,1 @@
-Voici mon site vitrine à but éducatif uniquement
+Voici mon site personnel à but éducatif uniquement
