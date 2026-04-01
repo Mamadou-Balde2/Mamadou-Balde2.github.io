@@ -237,3 +237,26 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+/** Script AC
+ * 
+ */
+function toggleDetails(banner) {
+  const details = banner.nextElementSibling;
+  const btn = banner.querySelector('.toggle-btn');
+  const isExpanded = details.classList.contains('visible');
+
+  if (isExpanded) {
+      // Fermer
+      details.classList.remove('visible');
+      banner.classList.remove('expanded');
+      btn.classList.remove('rotated');
+      btn.textContent = '+';
+  } else {
+      // Ouvrir
+      details.classList.add('visible');
+      banner.classList.add('expanded');
+      btn.classList.add('rotated');
+      btn.textContent = '+';
+  }
+}

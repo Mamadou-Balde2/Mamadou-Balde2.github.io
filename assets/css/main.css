@@ -4329,3 +4329,115 @@ section,
   }
 }
 
+/*--------------------------------------------------------------
+# Section des banderoles
+--------------------------------------------------------------*/
+
+
+/* Banderole */
+.banner {
+  background: white;
+  border-radius: 20px;
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.banner:hover {
+  box-shadow: 0 8px 35px rgba(0,0,0,0.2);
+}
+
+.banner.expanded {
+  border-radius: 10px;
+  cursor: default;
+}
+
+/* Texte de la banderole */
+.banner-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+/* Bouton + */
+.toggle-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.toggle-btn:hover {
+  background: #764ba2;
+  transform: scale(1.1);
+}
+
+.toggle-btn.rotated {
+  transform: rotate(45deg);
+  background: #764ba2;
+}
+
+.toggle-btn.rotated:hover {
+  transform: rotate(45deg) scale(1.1);
+}
+
+/* Contenu détaillé */
+.details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 2rem;
+}
+
+.details.visible {
+  max-height: 500px;
+  padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.details-content {
+  border-top: 2px solid #f0f0f0;
+  padding-top: 1.5rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.details-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.details-text {
+  margin-bottom: 0.8rem;
+}
+
+/* Exemples de banderoles */
+.banner-example {
+  margin-bottom: 1.5rem;
+}
+
+.instructions {
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
