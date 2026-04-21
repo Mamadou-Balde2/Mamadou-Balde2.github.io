@@ -238,7 +238,7 @@
 
 })();
 
-/** Script AC
+/** Script Apprentissages Critiques
  * 
  */
 function toggleDetails(banner) {
@@ -251,12 +251,12 @@ function toggleDetails(banner) {
       details.classList.remove('visible');
       banner.classList.remove('expanded');
       btn.classList.remove('rotated');
-      btn.textContent = '+';
+      btn.textContent = '▼';
   } else {
       // Ouvrir
       details.classList.add('visible');
       banner.classList.add('expanded');
       btn.classList.add('rotated');
-      btn.textContent = '+';
+      btn.textContent = '▼';
   }
 }
