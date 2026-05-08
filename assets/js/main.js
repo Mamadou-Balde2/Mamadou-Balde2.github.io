@@ -260,3 +260,4 @@ function toggleDetails(banner) {
       btn.textContent = '▼';
   }
 }
+
